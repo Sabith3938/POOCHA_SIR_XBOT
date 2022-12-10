@@ -8,5 +8,5 @@ else
 fi
 cd /RashmikaBot
 pip3 install -U -r requirements.txt
-echo "Starting RashmikaBot...."
+echo "Starting JENNIE_DUDE...."
 python3 bot.py
