@@ -1,11 +1,11 @@
 <p align="center">
-  <img src="https://telegra.ph/file/b1b44075149f31a932cbc.jpg" alt="Rashmika Logo">
+  <img src="https://telegra.ph/file/e340709dcf81e5094a69f.jpg" alt="Rashmika Logo">
 </p>
 <h1 align="center">
   <b>MISS JENNIE LIZA BOT </b>
 </h1>
 
-![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=Welcome+To+RashmikaBot!;Created+by+ 『🇮🇳』ᴬᴹ 么 𝙄𝙣𝙛᭄ 𓆩⛦⃕‌SABITH𓆪➳࿐𝆺𝅥⃝™ ░ 𝕊𝕞𝕡ꪱꪲꪳꪎꫀꪶ⁴!;A+simple+and+powerful+Bot!;Indexes+Files+above+2GB;A+Bot+with+double+button!;Start+message+with+pic!;And+more+features!)
+![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=Welcome+To+RashmikaBot!;Created+by+ɛӼ_ռöֆ__⁷⁷⁷✘『🇮🇳』ᴬᴹ 么 𝙄𝙣𝙛᭄ 𓆩⛦⃕‌SABITH𓆪➳࿐𝆺𝅥⃝™ ░ 𝕊𝕞𝕡ꪱꪲꪳꪎꫀꪶ⁴!;A+simple+and+powerful+Bot!;Indexes+Files+above+2GB;A+Bot+with+double+button!;Start+message+with+pic!;And+more+features!)
 </p>
 
 [![Stars](https://img.shields.io/github/stars/MyBotzz/RashmikaBot?style=flat-square&color=yellow)](https://github.com/MyBotzz/RashmikaBot/stargazers)
@@ -158,7 +158,7 @@ The fastest way to deploy the application is to click the **Deploy to Koyeb** bu
  - Thanks To All Everyone In This Journey
  - Thanks To [EvamariaTG](https://raw.githubusercontent.com/EvamariaTG) for their awesome [EvaMaria Bot](https://raw.githubusercontent.com/EvamariaTG/EvaMaria)
  - Thanks To [
-ɛӼ_ռöֆ__⁷⁷⁷✘](https://github.com/MyBotzz)
+ɛӼ_ռöֆ__⁷⁷⁷✘](https://github.com/MyBotzz)\n
  -Thanks To Me 😏
 ## Note 🏷️
  - <b>Importing this repo instead of forking is strictly prohibited 🚫 Kindly fork and edit as your wish (Must Give Credits for devs) 🙃</b>
