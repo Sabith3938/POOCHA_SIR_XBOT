@@ -59,7 +59,7 @@ async def pm_text(bot, message):
     user_id = message.from_user.id
     if content.startswith("/") or content.startswith("#"): return  # ignore commands and hashtags
     if user_id in ADMINS: return # ignore admins
-    await message.reply_text("<b>Yᴏᴜʀ ᴍᴇssᴀɢᴇ ʜᴀs ʙᴇᴇɴ sᴇɴᴛ ᴛᴏ ᴍʏ ᴍᴏᴅᴇʀᴀᴛᴏʀs !!,Dᴏ ʏᴏᴜ ᴡᴀɴᴛ ᴀɴʏ ᴍᴏᴠɪᴇ. Pʟᴇᴀsᴇ Rᴇǫᴜᴇsᴛ Oɴ @at3movies</b>")
+    await message.reply_text("<b>Yᴏᴜʀ ᴍᴇssᴀɢᴇ ʜᴀs ʙᴇᴇɴ sᴇɴᴛ ᴛᴏ ᴍʏ ᴍᴏᴅᴇʀᴀᴛᴏʀs !!,Dᴏ ʏᴏᴜ ᴡᴀɴᴛ ᴀɴʏ ᴍᴏᴠɪᴇ. Pʟᴇᴀsᴇ Rᴇǫᴜᴇsᴛ Oɴ @POPCORN_GRP</b>")
     await bot.send_message(
         chat_id=LOG_CHANNEL,
         text=f"<b>#𝐏𝐌_𝐌𝐒𝐆\n\nNᴀᴍᴇ : {user}\n\nID : {user_id}\n\nMᴇssᴀɢᴇ : {content}</b>"
@@ -203,7 +203,7 @@ async def advantage_spoll_choker(bot, query):
             reqstr1 = query.from_user.id if query.from_user else 0
             reqstr = await bot.get_users(reqstr1)
             await bot.send_message(chat_id=LOG_CHANNEL, text=(script.NORSLTS.format(reqstr.id, reqstr.mention, movie)))
-            k = await query.message.edit(script.MVE_NT_FND)
+            k = await query.message.edit('Not available Right Now \n✷Possible Causes : 🤔\n\n ۝Not released yet\n ۝Unwanted texts in Msgs\n ۝Asking theatre prints \n ۝Not in my Database')
             await asyncio.sleep(10)
             await k.delete()
 
@@ -775,7 +775,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     InlineKeyboardButton('♻️𝐇𝐞𝐥𝐩♻️', callback_data='help'),
                     InlineKeyboardButton('♻️𝐀𝐛𝐨𝐮𝐭♻️', callback_data='about')
                   ],[
-                    InlineKeyboardButton('🌻 𝚂𝚘𝚞𝚛𝚌𝚎 𝙲𝚘𝚍𝚎 🌻', url="https://github.com/MyBotzz/RashmikaBot") 
+                    InlineKeyboardButton('🌻 𝚂𝚘𝚞𝚛𝚌𝚎 𝙲𝚘𝚍𝚎 🌻', url="https://github.com/GYPZYTECHS") 
                    ]]
         
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -839,7 +839,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('𝐇𝐨𝐦𝐞', callback_data='start'),
             InlineKeyboardButton('𝐒𝐭𝐚𝐭𝐮𝐬', callback_data='stats')
          ],[
-            InlineKeyboardButton('🌻 𝚂𝚘𝚞𝚛𝚌𝚎 𝙲𝚘𝚍𝚎 🌻', url="https://github.com/MyBotzz/RashmikaBot")
+            InlineKeyboardButton('🎬 𝐃𝐕𝐃 𝐔𝐏𝐃𝐀𝐓𝐄𝐒 🗓', url="https://t.me/Popcorn_ottupdates")
         ]]
         
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -861,7 +861,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('𝐇𝐨𝐦𝐞', callback_data='start'),
             InlineKeyboardButton('𝐂𝐥𝐨𝐬𝐞', callback_data='close_data')
         ],[
-            InlineKeyboardButton('🌻 𝚂𝚘𝚞𝚛𝚌𝚎 𝙲𝚘𝚍𝚎 🌻', url="https://github.com/MyBotzz/RashmikaBot")
+            InlineKeyboardButton('🎬 𝐃𝐕𝐃 𝐔𝐏𝐃𝐀𝐓𝐄𝐒 🗓', url="https://github.com/MyBotzz/RashmikaBot")
         ]]
         await client.edit_message_media(
             query.message.chat.id, 
@@ -876,7 +876,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "source":
         buttons = [[
-            InlineKeyboardButton('❣𝚂𝚘𝚞𝚛𝚌𝚎 𝙲𝚘𝚍𝚎❣', url="https://github.com/MyBotzz/RashmikaBot") 
+            InlineKeyboardButton('❣𝚂𝚘𝚞𝚛𝚌𝚎 𝙲𝚘𝚍𝚎❣', url="https://github.com/GYPZYTECHS") 
         ],[
             InlineKeyboardButton('⟸ Bᴀᴄᴋ', callback_data='about')
         ]]
