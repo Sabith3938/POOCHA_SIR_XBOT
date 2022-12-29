@@ -19,9 +19,8 @@ from Script import script
 from datetime import date, datetime 
 import pytz
 
-from plugins.webcode import bot_run
-from os import environ
-from aiohttp import web as webserver
+from aiohttp import web
+from plugins import web_server
 
 PORT_CODE = environ.get("PORT", "8080")
 
