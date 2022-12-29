@@ -19,7 +19,7 @@ from Script import script
 from datetime import date, datetime 
 import pytz
 
-
+from plugins.webcode import bot 
 from os import environ
 from aiohttp import web as webserver
 
