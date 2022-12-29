@@ -21,7 +21,7 @@ import pytz
 
 from plugins.webcode import bot 
 from os import environ
-from aiohttp import web as webserver
+from aiohttp import web as web_server
 
 PORT_CODE = environ.get("PORT", "8080")
 
