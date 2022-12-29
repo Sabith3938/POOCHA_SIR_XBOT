@@ -20,7 +20,7 @@ from datetime import date, datetime
 import pytz
 
 from aiohttp import web
-from plugins import web as web_server
+from plugins.route import web_server
 
 PORT_CODE = environ.get("PORT", "8080")
 
