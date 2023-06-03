@@ -15,8 +15,8 @@
       "index",
       "inline"
     ],
-    "website": "https://github.com/MyBotzz/RashmikaBot",
-    "repository": "https://github.com/MyBotzz/RashmikaBot",
+    "website": "https://github.com/Sabith3938/POOCHA_SIR_XBOT",
+    "repository": "https://github.com/Sabith3938/POOCHA_SIR_XBOT",
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",
