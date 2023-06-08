@@ -9,4 +9,4 @@ RUN pip3 install -U pip && pip3 install -U -r requirements.txt
 RUN mkdir /POOCHA_SIR_XBOT
 WORKDIR /POOCHA_SIR_XBOT
 COPY start.sh /start.sh
-CMD ["/bin/bash", "/start.sh"]
+CMD ["python3", "bot.py"]
