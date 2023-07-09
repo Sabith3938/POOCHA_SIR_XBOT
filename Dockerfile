@@ -6,7 +6,7 @@ COPY requirements.txt /requirements.txt
 
 RUN cd /
 RUN pip3 install -U pip && pip3 install -U -r requirements.txt
-RUN mkdir /POOCHA_SIR_XBOT
-WORKDIR /POOCHA_SIR_XBOT
+RUN mkdir /RashmikaBot
+WORKDIR /RashmikaBot
 COPY start.sh /start.sh
-CMD ["python3", "bot.py"]
+CMD ["/bin/bash", "/start.sh"]
